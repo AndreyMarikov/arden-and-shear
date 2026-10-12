@@ -1,0 +1,13 @@
+{
+  "app": {
+    "[project]/src/app/about/page": [],
+    "[project]/src/app/contact/page": [],
+    "[project]/src/app/gallery/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/services/page": [],
+    "[project]/src/app/team/page": []
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

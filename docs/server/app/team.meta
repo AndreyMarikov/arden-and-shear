@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/team/layout,_N_T_/team/page,_N_T_/team"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/team/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/ec0df4b3ecd37a3fe63628811a7eb9aeeb95391ac8eb094d233e803a0fdd31ad/$/team",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/team/page"
+    },
+    "isFallback": false
+  }
+}

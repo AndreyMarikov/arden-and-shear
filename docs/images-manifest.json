@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "images": {
+    "deviceSizes": [
+      480,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "imageSizes": [
+      96,
+      192,
+      384
+    ],
+    "path": "/_next/image",
+    "loader": "default",
+    "loaderFile": "",
+    "domains": [],
+    "disableStaticImages": false,
+    "minimumCacheTTL": 14400,
+    "formats": [
+      "image/avif",
+      "image/webp"
+    ],
+    "maximumRedirects": 3,
+    "maximumResponseBody": 50000000,
+    "dangerouslyAllowLocalIP": false,
+    "dangerouslyAllowSVG": false,
+    "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
+    "contentDispositionType": "attachment",
+    "localPatterns": [
+      {
+        "pathname": "^(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)\\/?)$",
+        "search": ""
+      }
+    ],
+    "remotePatterns": [],
+    "qualities": [
+      75
+    ],
+    "unoptimized": false,
+    "customCacheHandler": false,
+    "sizes": [
+      480,
+      768,
+      1024,
+      1440,
+      1920,
+      96,
+      192,
+      384
+    ]
+  }
+}
