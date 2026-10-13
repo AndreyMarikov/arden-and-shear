@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "Meet the Team",
   description: "Meet the fictional barber and stylist team at Arden & Shear, with specialties spanning barbering, texture, and color.",
   alternates: { canonical: "/team" },
-  openGraph: { type: "website", url: "/team", title: "Meet the Team | Arden & Shear", siteName: "Arden & Shear", description: "Meet the fictional barber and stylist team, with specialties spanning barbering, texture, and color.", images: [{ url: "/assets/social/og-image.png", width: 1200, height: 630, alt: "Meet the Arden & Shear team" }] },
-  twitter: { card: "summary_large_image", title: "Meet the Team | Arden & Shear", description: "Meet the fictional barber and stylist team, with specialties spanning barbering, texture, and color.", images: ["/assets/social/og-image.png"] },
+  openGraph: { type: "website", url: "/team", title: "Meet the Team | Arden & Shear", siteName: "Arden & Shear", description: "Meet the fictional barber and stylist team, with specialties spanning barbering, texture, and color.", images: [{ url: "/arden-and-shear/assets/social/og-image.png", width: 1200, height: 630, alt: "Meet the Arden & Shear team" }] },
+  twitter: { card: "summary_large_image", title: "Meet the Team | Arden & Shear", description: "Meet the fictional barber and stylist team, with specialties spanning barbering, texture, and color.", images: ["/arden-and-shear/assets/social/og-image.png"] },
 };
 
 export default function TeamPage() {
