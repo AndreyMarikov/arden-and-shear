@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "Services & Pricing",
   description: "Explore barbering, hair studio, color, and grooming services with clear starting prices at Arden & Shear.",
   alternates: { canonical: "/services" },
-  openGraph: { type: "website", url: "/services", title: "Services & Pricing | Arden & Shear", siteName: "Arden & Shear", description: "Explore barbering, hair studio, color, and grooming services with clear starting prices.", images: [{ url: "/assets/social/og-image.png", width: 1200, height: 630, alt: "Arden & Shear services and pricing" }] },
-  twitter: { card: "summary_large_image", title: "Services & Pricing | Arden & Shear", description: "Explore barbering, hair studio, color, and grooming services with clear starting prices.", images: ["/assets/social/og-image.png"] },
+  openGraph: { type: "website", url: "/services", title: "Services & Pricing | Arden & Shear", siteName: "Arden & Shear", description: "Explore barbering, hair studio, color, and grooming services with clear starting prices.", images: [{ url: "/arden-and-shear/assets/social/og-image.png", width: 1200, height: 630, alt: "Arden & Shear services and pricing" }] },
+  twitter: { card: "summary_large_image", title: "Services & Pricing | Arden & Shear", description: "Explore barbering, hair studio, color, and grooming services with clear starting prices.", images: ["/arden-and-shear/assets/social/og-image.png"] },
 };
 
 export default function ServicesPage() {
