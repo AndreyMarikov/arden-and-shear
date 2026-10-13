@@ -7,7 +7,7 @@ const EXTENSIONS = [".webp", ".jpg", ".jpeg", ".png", ".avif"];
 /** Returns the public URL of the first matching file for a base path, or null. */
 export function resolvePhoto(base: string): string | null {
   for (const ext of EXTENSIONS) {
-    if (fs.existsSync(path.join(process.cwd(), "public", base + ext))) return base + ext;
+    if (fs.existsSync(path.join(process.cwd(), "public", base + ext))) return `/arden-and-shear${base}${ext}`;
   }
   return null;
 }
