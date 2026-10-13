@@ -91,7 +91,7 @@ html.menu-open { overflow: hidden; }
 .photo { position: relative; overflow: hidden; background: var(--sand); }
 .photo img { object-fit: cover; }
 .photo-empty { position: absolute; inset: 0; background: linear-gradient(160deg, var(--sand), var(--sand-deep)); }
-.photo-empty::after { content: ""; position: absolute; inset: 0; background: var(--taupe); opacity: 0.45; -webkit-mask: url(/brand/brand-mark.svg) center / 16% auto no-repeat; mask: url(/brand/brand-mark.svg) center / 16% auto no-repeat; }
+.photo-empty::after { content: ""; position: absolute; inset: 0; background: var(--taupe); opacity: 0.45; -webkit-mask: url(/arden-and-shear/brand/brand-mark.svg) center / 16% auto no-repeat; mask: url(/arden-and-shear/brand/brand-mark.svg) center / 16% auto no-repeat; }
 .arch { border-radius: 999px 999px 0 0; }
 .arch-left { border-top-left-radius: clamp(80px, 12vw, 200px); }
 
@@ -118,6 +118,9 @@ html.menu-open { overflow: hidden; }
 /* ---------- Sections ---------- */
 .section { padding-block: clamp(4rem, 9vw, 8rem); scroll-margin-top: var(--header-h); }
 .tint { background: var(--ivory); border-block: 1px solid var(--line); }
+.page-intro { background: var(--sand); }
+.services-section { background: var(--ivory); }
+.contact-main.tint { border-top: 0; }
 .section-head { max-width: 40rem; margin-bottom: clamp(2rem, 4vw, 3.5rem); }
 .section-head .lead { margin: 1.25rem 0 0; }
 section[id] { scroll-margin-top: var(--header-h); }
