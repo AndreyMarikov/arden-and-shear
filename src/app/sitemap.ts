@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { ALLOW_INDEXING, SITE_URL } from "@/content/site";
+export const dynamic = 'force-static';
 
 const paths = ["/", "/services", "/team", "/gallery", "/about", "/contact"];
 
