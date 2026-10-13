@@ -12,8 +12,8 @@ export const brand = {
 };
 
 export const logos = {
-  compact: { src: "/brand/logo-compact.svg", width: 243, height: 40 },
-  compactLight: { src: "/brand/logo-compact-light.svg", width: 243, height: 40 },
+  compact: { src: "/arden-and-shear/brand/logo-compact.svg", width: 243, height: 40 },
+  compactLight: { src: "/arden-and-shear/brand/logo-compact-light.svg", width: 243, height: 40 },
 };
 
 export const contact = {
