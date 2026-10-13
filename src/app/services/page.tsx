@@ -18,10 +18,12 @@ export default function ServicesPage() {
     <SiteFrame>
       <main id="main">
         <PageIntro eyebrow="Services & pricing" title={<>Good work, <em>clear prices.</em></>} description="From a clean skin fade to a considered color change, every service starts with a conversation and a plan." action={{ href: "/contact", label: "Ask us a question" }} />
-        <section className="section wrap services-page" aria-labelledby="service-menu-title">
+        <section className="section services-section" aria-labelledby="service-menu-title">
+          <div className="wrap services-page">
           <div className="service-note"><CheckCircle2 size={20} aria-hidden="true" /><p>All prices are in US dollars. Color, length, and density can affect the final cost; we confirm everything before we begin.</p></div>
           <h2 id="service-menu-title" className="sr-only">Full service menu</h2>
           <ServiceMenu />
+          </div>
         </section>
         <section className="section tint" aria-labelledby="service-cta-title">
           <div className="wrap contact-band-inner"><div><p className="eyebrow">Not sure what to book?</p><h2 id="service-cta-title">Tell us what you're after.</h2></div><Link className="btn btn-dark" href="/contact">Get in touch <ArrowRight size={18} aria-hidden="true" /></Link></div>
