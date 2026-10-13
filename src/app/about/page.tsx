@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   title: "About the Studio",
   description: "Discover the approach behind Arden & Shear: considered barbering, thoughtful color, and a more personal studio experience.",
   alternates: { canonical: "/about" },
-  openGraph: { type: "website", url: "/about", title: "About the Studio | Arden & Shear", siteName: "Arden & Shear", description: "Considered barbering, thoughtful color, and a more personal studio experience.", images: [{ url: "/assets/social/og-image.png", width: 1200, height: 630, alt: "Inside the Arden & Shear studio" }] },
-  twitter: { card: "summary_large_image", title: "About the Studio | Arden & Shear", description: "Considered barbering, thoughtful color, and a more personal studio experience.", images: ["/assets/social/og-image.png"] },
+  openGraph: { type: "website", url: "/about", title: "About the Studio | Arden & Shear", siteName: "Arden & Shear", description: "Considered barbering, thoughtful color, and a more personal studio experience.", images: [{ url: "/arden-and-shear/assets/social/og-image.png", width: 1200, height: 630, alt: "Inside the Arden & Shear studio" }] },
+  twitter: { card: "summary_large_image", title: "About the Studio | Arden & Shear", description: "Considered barbering, thoughtful color, and a more personal studio experience.", images: ["/arden-and-shear/assets/social/og-image.png"] },
 };
 
 const principleIcons = [Clock, MessagesSquare, Check];
