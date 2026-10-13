@@ -39,7 +39,7 @@ export default function ContactForm({ groups }: { groups: ServiceGroupOption[] }
         <div className="field field-wide">
           <label htmlFor="contact-service">Service (optional)</label>
           <div className="select-wrap">
-            <select id="contact-service" name="service" defaultValue="" aria-describedby="contact-service-hint">
+            <select id="contact-service" name="service" defaultValue="">
               <option value="" disabled hidden>Select a service</option>
               {groups.map((group) => (
                 <optgroup key={group.id} label={group.title}>
@@ -49,12 +49,10 @@ export default function ContactForm({ groups }: { groups: ServiceGroupOption[] }
             </select>
             <ChevronDown className="select-chevron" size={18} strokeWidth={1.75} aria-hidden="true" />
           </div>
-          <span id="contact-service-hint" className="field-hint">Choose an option from the dropdown, or leave it blank.</span>
         </div>
         <div className="field field-wide">
           <label htmlFor="contact-message">Your message</label>
           <textarea id="contact-message" name="message" required minLength={10} maxLength={2000} rows={4} placeholder="Tell us a little about what you have in mind…" />
-          <span className="field-hint">Please don't include sensitive personal information.</span>
         </div>
       </div>
       <button className="btn btn-dark" type="submit">Send message <ArrowRight size={18} aria-hidden="true" /></button>
