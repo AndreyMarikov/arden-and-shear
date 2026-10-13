@@ -118,7 +118,7 @@ html.menu-open { overflow: hidden; }
 /* ---------- Sections ---------- */
 .section { padding-block: clamp(4rem, 9vw, 8rem); scroll-margin-top: var(--header-h); }
 .tint { background: var(--ivory); border-block: 1px solid var(--line); }
-.page-intro { background: var(--sand); }
+.page-intro { background: var(--cream); }
 .services-section { background: var(--ivory); }
 .contact-main.tint { border-top: 0; }
 .section-head { max-width: 40rem; margin-bottom: clamp(2rem, 4vw, 3.5rem); }
