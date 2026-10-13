@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   title: "Gallery",
   description: "A look at haircut shapes, clean fades, color, and the little details that make a style feel personal.",
   alternates: { canonical: "/gallery" },
-  openGraph: { type: "website", url: "/gallery", title: "Gallery | Arden & Shear", siteName: "Arden & Shear", description: "A look at haircut shapes, clean fades, color, and the little details that make a style feel personal.", images: [{ url: "/assets/social/og-image.png", width: 1200, height: 630, alt: "Arden & Shear haircut and salon gallery" }] },
-  twitter: { card: "summary_large_image", title: "Gallery | Arden & Shear", description: "Haircut shapes, clean fades, color, and considered details.", images: ["/assets/social/og-image.png"] },
+  openGraph: { type: "website", url: "/gallery", title: "Gallery | Arden & Shear", siteName: "Arden & Shear", description: "A look at haircut shapes, clean fades, color, and the little details that make a style feel personal.", images: [{ url: "/arden-and-shear/assets/social/og-image.png", width: 1200, height: 630, alt: "Arden & Shear haircut and salon gallery" }] },
+  twitter: { card: "summary_large_image", title: "Gallery | Arden & Shear", description: "Haircut shapes, clean fades, color, and considered details.", images: ["/arden-and-shear/assets/social/og-image.png"] },
 };
 
 export default function GalleryPage() {
