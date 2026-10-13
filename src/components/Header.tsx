@@ -107,7 +107,7 @@ export default function Header({ leftLinks, rightLinks, ctaHref, ctaLabel, logo,
         <div className="mobile-menu-head">
           <Link href="/" className="mobile-menu-logo" aria-label={`${brandName} — home`} onClick={closeMenu}>
             <Image
-              src="/brand/logo-compact.svg"
+              src="/arden-and-shear/brand/logo-compact.svg"
               width={243}
               height={40}
               alt={brandName}
